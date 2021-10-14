@@ -1,3 +1,4 @@
+# while loop here is only for testing purposes
 loop = "yes"
 while loop == "yes":
     value = float(input("Enter a number: "))
