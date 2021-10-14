@@ -532,7 +532,7 @@ class Export:
         invalid = "no"
 
         filename = self.filename_entry.get()
-
+        # checks for each character
         for letter in filename:
             if re.match(valid_char, letter):
                 continue
