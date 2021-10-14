@@ -8,6 +8,7 @@ while invalid == "yes":
     valid_char = "[A-Za-z0-9_]"
 
     for letter in filename:
+        # checks if the characters are in the valid range
         if re.match(valid_char, letter):
             continue
         elif letter == " ":
