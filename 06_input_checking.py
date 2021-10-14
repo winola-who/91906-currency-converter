@@ -1,3 +1,4 @@
+# checks for number inputs
 error = 1
 error_msg = " "
 while error == 1:
