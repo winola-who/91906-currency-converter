@@ -8,6 +8,7 @@ while conversion != "no":
     conversion = input("Enter an item: ")
     if conversion == "no":
         break
+    # stores item in the back of a list
     all_conversions.append(conversion)
 
 if len(all_conversions) == 0:
