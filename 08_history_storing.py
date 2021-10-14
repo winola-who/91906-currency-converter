@@ -317,7 +317,7 @@ class Converter:
         # clears the list for chosen currencies
         chosen_currencies.clear()
 
-        # prints the history list for testing (will be removed in assembled outcome)
+        # prints the history list (for testing)
         last_conversion = all_conversions[-1]
         print(last_conversion)
 
