@@ -302,6 +302,7 @@ class Converter:
         else:
             # change text in output label to show the error message when there are errors
             self.output_label.configure(text=error_msg, fg=txt_colour)
+        # clears the selected currency from last round
         chosen_currencies.clear()
 
 
