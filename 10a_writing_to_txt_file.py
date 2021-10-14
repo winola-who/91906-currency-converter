@@ -33,6 +33,7 @@ def validate():
             return name
 
 
+# items in this list are for testing only
 conv_hist = ["NZD $4.0 to RMB ¥18.2", "RMB ¥4.0 to USD $0.6", "RMB ¥4.0 to USD $0.6"]
 
 filename = validate()
