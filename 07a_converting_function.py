@@ -1,3 +1,4 @@
+# converts USD to RMB
 def value_check():
     error = 1
     error_msg = " "
