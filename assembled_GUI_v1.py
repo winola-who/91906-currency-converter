@@ -123,7 +123,7 @@ class Converter:
                                     fg=txt_colour,
                                     width=15, height=2,
                                     relief=GROOVE,
-                                    command=lambda: self.convert_to("USD")
+                                    command=lambda: self.convert_to("USD"),
                                     )
         self.to_usd_button.grid(row=0, column=0)
 
