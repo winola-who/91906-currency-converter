@@ -257,6 +257,7 @@ class Help:
         self.help_box.destroy()
 
 
+# History GUI
 class History:
     def __init__(self, partner):
         background = "White",
