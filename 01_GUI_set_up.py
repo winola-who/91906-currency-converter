@@ -151,7 +151,8 @@ class Converter:
                                   pady=4,
                                   )
         self.output_label.grid(row=7)
-
+        
+        # blank label to help formatting the GUI
         self.empty_row = Label(self.converter_frame,
                                text="",
                                bg=background,
