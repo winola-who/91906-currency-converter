@@ -196,6 +196,7 @@ class Converter:
         get_help.help_text.configure(text="Program instructions")
 
 
+# Help GUI
 class Help:
     def __init__(self, partner):
         background = "White",
